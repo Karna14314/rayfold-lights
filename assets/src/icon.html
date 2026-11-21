@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>RAYFOLD icon</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        width: 1024px;
+        height: 1024px;
+        overflow: hidden;
+        background: #05080d;
+      }
+      svg {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+          <path d="M64 0H0V64" fill="none" stroke="#1a2530" stroke-width="1" />
+        </pattern>
+        <radialGradient id="vignette" cx="50%" cy="45%" r="72%">
+          <stop offset="45%" stop-color="#05080d" stop-opacity="0" />
+          <stop offset="100%" stop-color="#010306" stop-opacity="0.78" />
+        </radialGradient>
+        <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#f5a623" stop-opacity="0.2" />
+          <stop offset="55%" stop-color="#f5a623" stop-opacity="0.05" />
+          <stop offset="100%" stop-color="#f5a623" stop-opacity="0" />
+        </radialGradient>
+        <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#f2f8ff" />
+          <stop offset="45%" stop-color="#9fb3c8" />
+          <stop offset="100%" stop-color="#42566b" />
+        </linearGradient>
+        <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#e8fbff" stop-opacity="0.34" />
+          <stop offset="55%" stop-color="#9fe9ff" stop-opacity="0.1" />
+          <stop offset="100%" stop-color="#ff8fe6" stop-opacity="0.18" />
+        </linearGradient>
+        <linearGradient id="amber" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stop-color="#c97a10" />
+          <stop offset="45%" stop-color="#f5a623" />
+          <stop offset="100%" stop-color="#ffd79a" />
+        </linearGradient>
+        <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+          <feGaussianBlur stdDeviation="16" result="wide" />
+          <feGaussianBlur stdDeviation="5" result="tight" />
+          <feMerge>
+            <feMergeNode in="wide" />
+            <feMergeNode in="tight" />
+            <feMergeNode in="SourceGraphic" />
+          </feMerge>
+        </filter>
+        <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+          <feGaussianBlur stdDeviation="28" />
+        </filter>
+      </defs>
+
+      <rect width="1024" height="1024" fill="#05080d" />
+      <ellipse cx="580" cy="470" rx="520" ry="430" fill="url(#halo)" />
+
+      <!-- amber beam glow -->
+      <g filter="url(#glow)">
+        <path d="M28 660H300V420H648" fill="none" stroke="#f5a623" stroke-width="20" stroke-opacity="0.36" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M28 660H300V420H648" fill="none" stroke="#ffd79a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+
+      <!-- prism -->
+      <g>
+        <path d="M646 372L646 468L722 420Z" fill="url(#glass)" stroke="#d8f6ff" stroke-width="3" stroke-opacity="0.72" stroke-linejoin="round" />
+        <path d="M662 398L704 420M662 442L704 420" stroke="#9fe9ff" stroke-width="2" stroke-opacity="0.4" />
+      </g>
+
+      <!-- split rays -->
+      <g filter="url(#glow)">
+        <path d="M716 408L858 278" fill="none" stroke="#38e1ff" stroke-width="11" stroke-opacity="0.32" stroke-linecap="round" />
+        <path d="M716 408L858 278" fill="none" stroke="#bdf6ff" stroke-width="4" stroke-linecap="round" />
+        <path d="M716 432L858 562" fill="none" stroke="#ff4fd8" stroke-width="11" stroke-opacity="0.32" stroke-linecap="round" />
+        <path d="M716 432L858 562" fill="none" stroke="#ffc2f2" stroke-width="4" stroke-linecap="round" />
+        <path d="M722 420H856" fill="none" stroke="#f5a623" stroke-width="11" stroke-opacity="0.3" stroke-linecap="round" />
+        <path d="M722 420H856" fill="none" stroke="#ffd79a" stroke-width="4" stroke-linecap="round" />
+      </g>
+
+      <!-- targets -->
+      <g filter="url(#glow)">
+        <path d="M856 230L906 280L856 330L806 280Z" fill="#f5a623" fill-opacity="0.14" stroke="#ffd79a" stroke-width="7" stroke-linejoin="round" />
+        <path d="M856 370L906 420L856 470L806 420Z" fill="#f5a623" fill-opacity="0.2" stroke="#f5a623" stroke-width="7" stroke-linejoin="round" />
+        <path d="M856 510L906 560L856 610L806 560Z" fill="#ff4fd8" fill-opacity="0.14" stroke="#ff8fe6" stroke-width="7" stroke-linejoin="round" />
+      </g>
+
+      <!-- mirrors -->
+      <g>
+        <g transform="translate(300 660) rotate(-45)">
+          <rect x="-58" y="-8" width="116" height="16" rx="8" fill="url(#metal)" stroke="#e9f4ff" stroke-width="2" stroke-opacity="0.8" />
+          <rect x="-58" y="-2" width="116" height="4" fill="#ffffff" opacity="0.55" />
+        </g>
+        <g transform="translate(300 420) rotate(45)">
+          <rect x="-58" y="-8" width="116" height="16" rx="8" fill="url(#metal)" stroke="#e9f4ff" stroke-width="2" stroke-opacity="0.8" />
+          <rect x="-58" y="-2" width="116" height="4" fill="#ffffff" opacity="0.55" />
+        </g>
+      </g>
+
+      <!-- emitter -->
+      <g filter="url(#glow)">
+        <circle cx="38" cy="660" r="16" fill="#ffd79a" />
+      </g>
+      <path d="M22 626h30v68H22" fill="none" stroke="#f5a623" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M38 660h24" stroke="#ffd79a" stroke-width="6" stroke-linecap="round" />
+
+      <rect width="1024" height="1024" fill="url(#vignette)" />
+    </svg>
+  </body>
+</html>

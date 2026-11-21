@@ -1,0 +1,3544 @@
+[
+  {
+    "id": 1,
+    "tier": 1,
+    "emitter": {
+      "index": 30,
+      "dir": "E"
+    },
+    "blockers": [
+      10,
+      16,
+      21
+    ],
+    "targets": [
+      6,
+      12,
+      18
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 35
+  },
+  {
+    "id": 2,
+    "tier": 1,
+    "emitter": {
+      "index": 34,
+      "dir": "N"
+    },
+    "blockers": [
+      5,
+      7,
+      21,
+      35
+    ],
+    "targets": [
+      25,
+      26,
+      29
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 4,
+        "mirror": "\\"
+      },
+      {
+        "index": 24,
+        "mirror": "\\"
+      }
+    ],
+    "firstHintIndex": 4
+  },
+  {
+    "id": 3,
+    "tier": 1,
+    "emitter": {
+      "index": 32,
+      "dir": "N"
+    },
+    "blockers": [
+      12,
+      13,
+      33
+    ],
+    "targets": [
+      24,
+      25,
+      28
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 2,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 29,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 2
+  },
+  {
+    "id": 4,
+    "tier": 2,
+    "emitter": {
+      "index": 29,
+      "dir": "W"
+    },
+    "blockers": [
+      15,
+      20,
+      22,
+      33
+    ],
+    "targets": [
+      8,
+      9,
+      11
+    ],
+    "prisms": [
+      10
+    ],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 4,
+        "mirror": "\\"
+      },
+      {
+        "index": 24,
+        "mirror": "\\"
+      }
+    ],
+    "firstHintIndex": 24
+  },
+  {
+    "id": 5,
+    "tier": 2,
+    "emitter": {
+      "index": 17,
+      "dir": "W"
+    },
+    "blockers": [
+      7,
+      9,
+      21,
+      22
+    ],
+    "targets": [
+      25,
+      26,
+      29
+    ],
+    "prisms": [
+      28
+    ],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 12,
+        "mirror": "/"
+      },
+      {
+        "index": 30,
+        "mirror": "\\"
+      },
+      {
+        "index": 34,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 12
+  },
+  {
+    "id": 6,
+    "tier": 3,
+    "emitter": {
+      "index": 24,
+      "dir": "E"
+    },
+    "blockers": [
+      7,
+      15,
+      31,
+      32,
+      34
+    ],
+    "targets": [
+      6,
+      11,
+      12
+    ],
+    "prisms": [
+      23
+    ],
+    "par": 4,
+    "budget": 5,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 18,
+        "mirror": "\\"
+      },
+      {
+        "index": 29,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 29
+  },
+  {
+    "id": 7,
+    "tier": 3,
+    "emitter": {
+      "index": 30,
+      "dir": "N"
+    },
+    "blockers": [
+      15,
+      16,
+      20,
+      22
+    ],
+    "targets": [
+      3,
+      25,
+      29
+    ],
+    "prisms": [
+      1
+    ],
+    "par": 4,
+    "budget": 5,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 31,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 0
+  },
+  {
+    "id": 8,
+    "tier": 1,
+    "emitter": {
+      "index": 2,
+      "dir": "S"
+    },
+    "blockers": [
+      4,
+      12,
+      13,
+      18
+    ],
+    "targets": [
+      7,
+      9,
+      10
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 11,
+        "mirror": "\\"
+      },
+      {
+        "index": 32,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 32
+  },
+  {
+    "id": 9,
+    "tier": 1,
+    "emitter": {
+      "index": 23,
+      "dir": "W"
+    },
+    "blockers": [
+      5,
+      9,
+      31,
+      35
+    ],
+    "targets": [
+      10,
+      28,
+      34
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 4,
+        "mirror": "\\"
+      },
+      {
+        "index": 18,
+        "mirror": "\\"
+      }
+    ],
+    "firstHintIndex": 18
+  },
+  {
+    "id": 10,
+    "tier": 1,
+    "emitter": {
+      "index": 12,
+      "dir": "E"
+    },
+    "blockers": [
+      0,
+      3,
+      20,
+      21
+    ],
+    "targets": [
+      1,
+      19,
+      25
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 17,
+        "mirror": "\\"
+      },
+      {
+        "index": 31,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 17
+  },
+  {
+    "id": 11,
+    "tier": 2,
+    "emitter": {
+      "index": 3,
+      "dir": "S"
+    },
+    "blockers": [
+      2,
+      8,
+      11,
+      20
+    ],
+    "targets": [
+      1,
+      13,
+      25
+    ],
+    "prisms": [
+      7
+    ],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 6,
+        "mirror": "/"
+      },
+      {
+        "index": 30,
+        "mirror": "\\"
+      },
+      {
+        "index": 33,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 33
+  },
+  {
+    "id": 12,
+    "tier": 2,
+    "emitter": {
+      "index": 29,
+      "dir": "W"
+    },
+    "blockers": [
+      5,
+      14,
+      16
+    ],
+    "targets": [
+      7,
+      8,
+      11
+    ],
+    "prisms": [
+      10
+    ],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 4,
+        "mirror": "\\"
+      },
+      {
+        "index": 24,
+        "mirror": "\\"
+      }
+    ],
+    "firstHintIndex": 24
+  },
+  {
+    "id": 13,
+    "tier": 3,
+    "emitter": {
+      "index": 30,
+      "dir": "N"
+    },
+    "blockers": [
+      10,
+      15,
+      20,
+      21
+    ],
+    "targets": [
+      4,
+      29,
+      32
+    ],
+    "prisms": [
+      1
+    ],
+    "par": 4,
+    "budget": 5,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 31,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 0
+  },
+  {
+    "id": 14,
+    "tier": 3,
+    "emitter": {
+      "index": 0,
+      "dir": "E"
+    },
+    "blockers": [
+      13,
+      14,
+      19,
+      25,
+      26
+    ],
+    "targets": [
+      8,
+      24,
+      29
+    ],
+    "prisms": [
+      11
+    ],
+    "par": 4,
+    "budget": 5,
+    "parSolution": [
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 6,
+        "mirror": "/"
+      },
+      {
+        "index": 30,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 5
+  },
+  {
+    "id": 15,
+    "tier": 1,
+    "emitter": {
+      "index": 23,
+      "dir": "W"
+    },
+    "blockers": [
+      8,
+      17,
+      29
+    ],
+    "targets": [
+      10,
+      16,
+      28
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 4,
+        "mirror": "\\"
+      },
+      {
+        "index": 18,
+        "mirror": "\\"
+      }
+    ],
+    "firstHintIndex": 18
+  },
+  {
+    "id": 16,
+    "tier": 1,
+    "emitter": {
+      "index": 24,
+      "dir": "E"
+    },
+    "blockers": [
+      15,
+      20,
+      33
+    ],
+    "targets": [
+      6,
+      12,
+      18
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 29,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 29
+  },
+  {
+    "id": 17,
+    "tier": 1,
+    "emitter": {
+      "index": 23,
+      "dir": "W"
+    },
+    "blockers": [
+      11,
+      14,
+      32
+    ],
+    "targets": [
+      10,
+      16,
+      28
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 4,
+        "mirror": "\\"
+      },
+      {
+        "index": 18,
+        "mirror": "\\"
+      }
+    ],
+    "firstHintIndex": 18
+  },
+  {
+    "id": 18,
+    "tier": 2,
+    "emitter": {
+      "index": 31,
+      "dir": "N"
+    },
+    "blockers": [
+      22,
+      24,
+      27,
+      30
+    ],
+    "targets": [
+      4,
+      29,
+      33
+    ],
+    "prisms": [
+      2
+    ],
+    "par": 4,
+    "budget": 5,
+    "parSolution": [
+      {
+        "index": 1,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 32,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 1
+  },
+  {
+    "id": 19,
+    "tier": 2,
+    "emitter": {
+      "index": 34,
+      "dir": "N"
+    },
+    "blockers": [
+      27,
+      29,
+      32
+    ],
+    "targets": [
+      7,
+      13,
+      31
+    ],
+    "prisms": [
+      25
+    ],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 4,
+        "mirror": "\\"
+      },
+      {
+        "index": 24,
+        "mirror": "\\"
+      }
+    ],
+    "firstHintIndex": 4
+  },
+  {
+    "id": 20,
+    "tier": 3,
+    "emitter": {
+      "index": 6,
+      "dir": "E"
+    },
+    "blockers": [
+      0,
+      20,
+      21,
+      26
+    ],
+    "targets": [
+      18,
+      29,
+      33
+    ],
+    "prisms": [
+      17
+    ],
+    "par": 4,
+    "budget": 5,
+    "parSolution": [
+      {
+        "index": 11,
+        "mirror": "\\"
+      },
+      {
+        "index": 12,
+        "mirror": "/"
+      },
+      {
+        "index": 30,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 11
+  },
+  {
+    "id": 21,
+    "tier": 3,
+    "emitter": {
+      "index": 35,
+      "dir": "N"
+    },
+    "blockers": [
+      14,
+      19,
+      20,
+      25,
+      27
+    ],
+    "targets": [
+      2,
+      3,
+      32
+    ],
+    "prisms": [
+      4
+    ],
+    "par": 4,
+    "budget": 5,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 30,
+        "mirror": "\\"
+      },
+      {
+        "index": 34,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 5
+  },
+  {
+    "id": 22,
+    "tier": 1,
+    "emitter": {
+      "index": 4,
+      "dir": "S"
+    },
+    "blockers": [
+      2,
+      3,
+      13,
+      14
+    ],
+    "targets": [
+      7,
+      9,
+      11
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 6,
+        "mirror": "/"
+      },
+      {
+        "index": 30,
+        "mirror": "\\"
+      },
+      {
+        "index": 34,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 34
+  },
+  {
+    "id": 23,
+    "tier": 1,
+    "emitter": {
+      "index": 11,
+      "dir": "W"
+    },
+    "blockers": [
+      3,
+      15,
+      17,
+      19
+    ],
+    "targets": [
+      4,
+      16,
+      28
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 6,
+        "mirror": "/"
+      },
+      {
+        "index": 30,
+        "mirror": "\\"
+      },
+      {
+        "index": 34,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 6
+  },
+  {
+    "id": 24,
+    "tier": 1,
+    "emitter": {
+      "index": 2,
+      "dir": "S"
+    },
+    "blockers": [
+      0,
+      18,
+      22,
+      27
+    ],
+    "targets": [
+      6,
+      7,
+      10
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 11,
+        "mirror": "\\"
+      },
+      {
+        "index": 32,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 32
+  },
+  {
+    "id": 25,
+    "tier": 2,
+    "emitter": {
+      "index": 35,
+      "dir": "N"
+    },
+    "blockers": [
+      8,
+      19,
+      21,
+      27
+    ],
+    "targets": [
+      3,
+      31,
+      32
+    ],
+    "prisms": [
+      4
+    ],
+    "par": 4,
+    "budget": 5,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 30,
+        "mirror": "\\"
+      },
+      {
+        "index": 34,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 5
+  },
+  {
+    "id": 26,
+    "tier": 2,
+    "emitter": {
+      "index": 24,
+      "dir": "E"
+    },
+    "blockers": [
+      0,
+      8,
+      19,
+      21
+    ],
+    "targets": [
+      12,
+      14,
+      16
+    ],
+    "prisms": [
+      13
+    ],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 1,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 29,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 29
+  },
+  {
+    "id": 27,
+    "tier": 3,
+    "emitter": {
+      "index": 30,
+      "dir": "E"
+    },
+    "blockers": [
+      7,
+      10,
+      13,
+      14,
+      20
+    ],
+    "targets": [
+      3,
+      6,
+      17
+    ],
+    "prisms": [
+      29
+    ],
+    "par": 4,
+    "budget": 5,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 24,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 35
+  },
+  {
+    "id": 28,
+    "tier": 3,
+    "emitter": {
+      "index": 30,
+      "dir": "E"
+    },
+    "blockers": [
+      9,
+      13,
+      14,
+      16,
+      19
+    ],
+    "targets": [
+      4,
+      11,
+      12
+    ],
+    "prisms": [
+      29
+    ],
+    "par": 4,
+    "budget": 5,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 24,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 35
+  },
+  {
+    "id": 29,
+    "tier": 1,
+    "emitter": {
+      "index": 31,
+      "dir": "N"
+    },
+    "blockers": [
+      0,
+      10,
+      15,
+      21
+    ],
+    "targets": [
+      32,
+      33,
+      34
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 1,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 1
+  },
+  {
+    "id": 30,
+    "tier": 1,
+    "emitter": {
+      "index": 4,
+      "dir": "S"
+    },
+    "blockers": [
+      8,
+      26,
+      35
+    ],
+    "targets": [
+      1,
+      2,
+      3
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 30,
+        "mirror": "\\"
+      },
+      {
+        "index": 34,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 34
+  },
+  {
+    "id": 31,
+    "tier": 1,
+    "emitter": {
+      "index": 1,
+      "dir": "S"
+    },
+    "blockers": [
+      6,
+      15,
+      22,
+      28
+    ],
+    "targets": [
+      2,
+      3,
+      4
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 31,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 31
+  },
+  {
+    "id": 32,
+    "tier": 2,
+    "emitter": {
+      "index": 18,
+      "dir": "E"
+    },
+    "blockers": [
+      13,
+      15,
+      16
+    ],
+    "targets": [
+      6,
+      8,
+      9
+    ],
+    "prisms": [
+      7
+    ],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 1,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 23,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 23
+  },
+  {
+    "id": 33,
+    "tier": 2,
+    "emitter": {
+      "index": 32,
+      "dir": "N"
+    },
+    "blockers": [
+      12,
+      27,
+      35
+    ],
+    "targets": [
+      16,
+      22,
+      34
+    ],
+    "prisms": [
+      28
+    ],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 2,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 29,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 2
+  },
+  {
+    "id": 34,
+    "tier": 3,
+    "emitter": {
+      "index": 5,
+      "dir": "W"
+    },
+    "blockers": [
+      15,
+      19,
+      25,
+      26,
+      27
+    ],
+    "targets": [
+      18,
+      23,
+      29
+    ],
+    "prisms": [
+      6
+    ],
+    "par": 4,
+    "budget": 5,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 11,
+        "mirror": "\\"
+      },
+      {
+        "index": 30,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 0
+  },
+  {
+    "id": 35,
+    "tier": 3,
+    "emitter": {
+      "index": 4,
+      "dir": "S"
+    },
+    "blockers": [
+      13,
+      14,
+      20,
+      26
+    ],
+    "targets": [
+      2,
+      21,
+      31
+    ],
+    "prisms": [
+      33
+    ],
+    "par": 4,
+    "budget": 5,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 3,
+        "mirror": "\\"
+      },
+      {
+        "index": 30,
+        "mirror": "\\"
+      },
+      {
+        "index": 34,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 34
+  },
+  {
+    "id": 36,
+    "tier": 1,
+    "emitter": {
+      "index": 35,
+      "dir": "N"
+    },
+    "blockers": [
+      16,
+      27,
+      28
+    ],
+    "targets": [
+      31,
+      32,
+      34
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 30,
+        "mirror": "\\"
+      }
+    ],
+    "firstHintIndex": 5
+  },
+  {
+    "id": 37,
+    "tier": 1,
+    "emitter": {
+      "index": 11,
+      "dir": "W"
+    },
+    "blockers": [
+      26,
+      27,
+      28
+    ],
+    "targets": [
+      17,
+      23,
+      29
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 6,
+        "mirror": "/"
+      },
+      {
+        "index": 30,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 6
+  },
+  {
+    "id": 38,
+    "tier": 1,
+    "emitter": {
+      "index": 17,
+      "dir": "W"
+    },
+    "blockers": [
+      0,
+      3,
+      11,
+      20
+    ],
+    "targets": [
+      4,
+      10,
+      22
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 12,
+        "mirror": "/"
+      },
+      {
+        "index": 30,
+        "mirror": "\\"
+      },
+      {
+        "index": 34,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 12
+  },
+  {
+    "id": 39,
+    "tier": 2,
+    "emitter": {
+      "index": 24,
+      "dir": "E"
+    },
+    "blockers": [
+      0,
+      12,
+      13
+    ],
+    "targets": [
+      6,
+      9,
+      10
+    ],
+    "prisms": [
+      7
+    ],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 1,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 29,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 29
+  },
+  {
+    "id": 40,
+    "tier": 2,
+    "emitter": {
+      "index": 1,
+      "dir": "S"
+    },
+    "blockers": [
+      3,
+      8,
+      15
+    ],
+    "targets": [
+      4,
+      16,
+      22
+    ],
+    "prisms": [
+      10
+    ],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 11,
+        "mirror": "\\"
+      },
+      {
+        "index": 31,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 31
+  },
+  {
+    "id": 41,
+    "tier": 3,
+    "emitter": {
+      "index": 1,
+      "dir": "S"
+    },
+    "blockers": [
+      6,
+      9,
+      12,
+      22,
+      27
+    ],
+    "targets": [
+      4,
+      26,
+      34
+    ],
+    "prisms": [
+      32
+    ],
+    "par": 4,
+    "budget": 5,
+    "parSolution": [
+      {
+        "index": 2,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 31,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 31
+  },
+  {
+    "id": 42,
+    "tier": 3,
+    "emitter": {
+      "index": 30,
+      "dir": "E"
+    },
+    "blockers": [
+      9,
+      13,
+      19,
+      20,
+      21
+    ],
+    "targets": [
+      6,
+      11,
+      28
+    ],
+    "prisms": [
+      29
+    ],
+    "par": 4,
+    "budget": 5,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 24,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 35
+  },
+  {
+    "id": 43,
+    "tier": 1,
+    "emitter": {
+      "index": 3,
+      "dir": "S"
+    },
+    "blockers": [
+      13,
+      16,
+      22
+    ],
+    "targets": [
+      7,
+      8,
+      10
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 6,
+        "mirror": "/"
+      },
+      {
+        "index": 30,
+        "mirror": "\\"
+      },
+      {
+        "index": 33,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 33
+  },
+  {
+    "id": 44,
+    "tier": 1,
+    "emitter": {
+      "index": 35,
+      "dir": "N"
+    },
+    "blockers": [
+      9,
+      10,
+      14,
+      16
+    ],
+    "targets": [
+      32,
+      33,
+      34
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 30,
+        "mirror": "\\"
+      }
+    ],
+    "firstHintIndex": 5
+  },
+  {
+    "id": 45,
+    "tier": 1,
+    "emitter": {
+      "index": 32,
+      "dir": "N"
+    },
+    "blockers": [
+      1,
+      12,
+      16,
+      19
+    ],
+    "targets": [
+      24,
+      25,
+      27
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 2,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 29,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 2
+  },
+  {
+    "id": 46,
+    "tier": 2,
+    "emitter": {
+      "index": 31,
+      "dir": "N"
+    },
+    "blockers": [
+      12,
+      22,
+      26
+    ],
+    "targets": [
+      15,
+      21,
+      33
+    ],
+    "prisms": [
+      27
+    ],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 1,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 29,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 1
+  },
+  {
+    "id": 47,
+    "tier": 2,
+    "emitter": {
+      "index": 5,
+      "dir": "S"
+    },
+    "blockers": [
+      7,
+      15,
+      19,
+      20
+    ],
+    "targets": [
+      2,
+      16,
+      32
+    ],
+    "prisms": [
+      34
+    ],
+    "par": 4,
+    "budget": 5,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 4,
+        "mirror": "\\"
+      },
+      {
+        "index": 30,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 35
+  },
+  {
+    "id": 48,
+    "tier": 3,
+    "emitter": {
+      "index": 30,
+      "dir": "E"
+    },
+    "blockers": [
+      13,
+      14,
+      15,
+      16
+    ],
+    "targets": [
+      2,
+      6,
+      17
+    ],
+    "prisms": [
+      29
+    ],
+    "par": 4,
+    "budget": 5,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 24,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 35
+  },
+  {
+    "id": 49,
+    "tier": 3,
+    "emitter": {
+      "index": 0,
+      "dir": "E"
+    },
+    "blockers": [
+      13,
+      16,
+      19,
+      21,
+      27
+    ],
+    "targets": [
+      18,
+      24,
+      29
+    ],
+    "prisms": [
+      11
+    ],
+    "par": 4,
+    "budget": 5,
+    "parSolution": [
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 6,
+        "mirror": "/"
+      },
+      {
+        "index": 30,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 5
+  },
+  {
+    "id": 50,
+    "tier": 1,
+    "emitter": {
+      "index": 31,
+      "dir": "N"
+    },
+    "blockers": [
+      0,
+      8,
+      9,
+      24
+    ],
+    "targets": [
+      32,
+      33,
+      34
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 1,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 1
+  },
+  {
+    "id": 51,
+    "tier": 1,
+    "emitter": {
+      "index": 1,
+      "dir": "S"
+    },
+    "blockers": [
+      4,
+      16,
+      24,
+      30
+    ],
+    "targets": [
+      6,
+      8,
+      9
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 11,
+        "mirror": "\\"
+      },
+      {
+        "index": 31,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 31
+  },
+  {
+    "id": 52,
+    "tier": 1,
+    "emitter": {
+      "index": 24,
+      "dir": "E"
+    },
+    "blockers": [
+      9,
+      31,
+      33
+    ],
+    "targets": [
+      6,
+      12,
+      18
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 29,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 29
+  },
+  {
+    "id": 53,
+    "tier": 2,
+    "emitter": {
+      "index": 31,
+      "dir": "N"
+    },
+    "blockers": [
+      18,
+      26,
+      35
+    ],
+    "targets": [
+      9,
+      15,
+      33
+    ],
+    "prisms": [
+      27
+    ],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 1,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 29,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 1
+  },
+  {
+    "id": 54,
+    "tier": 2,
+    "emitter": {
+      "index": 29,
+      "dir": "W"
+    },
+    "blockers": [
+      16,
+      20,
+      23,
+      31
+    ],
+    "targets": [
+      7,
+      8,
+      11
+    ],
+    "prisms": [
+      10
+    ],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 4,
+        "mirror": "\\"
+      },
+      {
+        "index": 24,
+        "mirror": "\\"
+      }
+    ],
+    "firstHintIndex": 24
+  },
+  {
+    "id": 55,
+    "tier": 3,
+    "emitter": {
+      "index": 35,
+      "dir": "N"
+    },
+    "blockers": [
+      8,
+      20,
+      21,
+      26
+    ],
+    "targets": [
+      2,
+      31,
+      33
+    ],
+    "prisms": [
+      4
+    ],
+    "par": 4,
+    "budget": 5,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 30,
+        "mirror": "\\"
+      },
+      {
+        "index": 34,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 5
+  },
+  {
+    "id": 56,
+    "tier": 3,
+    "emitter": {
+      "index": 30,
+      "dir": "E"
+    },
+    "blockers": [
+      7,
+      8,
+      10,
+      14,
+      16
+    ],
+    "targets": [
+      6,
+      11,
+      17
+    ],
+    "prisms": [
+      29
+    ],
+    "par": 4,
+    "budget": 5,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 24,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 35
+  },
+  {
+    "id": 57,
+    "tier": 1,
+    "emitter": {
+      "index": 3,
+      "dir": "S"
+    },
+    "blockers": [
+      2,
+      13,
+      25,
+      35
+    ],
+    "targets": [
+      7,
+      10,
+      11
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 6,
+        "mirror": "/"
+      },
+      {
+        "index": 30,
+        "mirror": "\\"
+      },
+      {
+        "index": 33,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 33
+  },
+  {
+    "id": 58,
+    "tier": 1,
+    "emitter": {
+      "index": 4,
+      "dir": "S"
+    },
+    "blockers": [
+      0,
+      5,
+      13,
+      23
+    ],
+    "targets": [
+      8,
+      9,
+      11
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 6,
+        "mirror": "/"
+      },
+      {
+        "index": 30,
+        "mirror": "\\"
+      },
+      {
+        "index": 34,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 34
+  },
+  {
+    "id": 59,
+    "tier": 1,
+    "emitter": {
+      "index": 31,
+      "dir": "N"
+    },
+    "blockers": [
+      14,
+      22,
+      27
+    ],
+    "targets": [
+      32,
+      33,
+      34
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 1,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 1
+  },
+  {
+    "id": 60,
+    "tier": 2,
+    "emitter": {
+      "index": 3,
+      "dir": "S"
+    },
+    "blockers": [
+      0,
+      8,
+      10,
+      22
+    ],
+    "targets": [
+      1,
+      19,
+      25
+    ],
+    "prisms": [
+      7
+    ],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 6,
+        "mirror": "/"
+      },
+      {
+        "index": 30,
+        "mirror": "\\"
+      },
+      {
+        "index": 33,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 33
+  },
+  {
+    "id": 61,
+    "tier": 2,
+    "emitter": {
+      "index": 4,
+      "dir": "S"
+    },
+    "blockers": [
+      13,
+      19,
+      20,
+      23
+    ],
+    "targets": [
+      1,
+      27,
+      31
+    ],
+    "prisms": [
+      33
+    ],
+    "par": 4,
+    "budget": 5,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 3,
+        "mirror": "\\"
+      },
+      {
+        "index": 30,
+        "mirror": "\\"
+      },
+      {
+        "index": 34,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 34
+  },
+  {
+    "id": 62,
+    "tier": 3,
+    "emitter": {
+      "index": 30,
+      "dir": "N"
+    },
+    "blockers": [
+      10,
+      15,
+      22,
+      26
+    ],
+    "targets": [
+      4,
+      25,
+      29
+    ],
+    "prisms": [
+      1
+    ],
+    "par": 4,
+    "budget": 5,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 31,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 0
+  },
+  {
+    "id": 63,
+    "tier": 3,
+    "emitter": {
+      "index": 24,
+      "dir": "E"
+    },
+    "blockers": [
+      9,
+      13,
+      30,
+      32,
+      35
+    ],
+    "targets": [
+      6,
+      11,
+      19
+    ],
+    "prisms": [
+      23
+    ],
+    "par": 4,
+    "budget": 5,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 18,
+        "mirror": "\\"
+      },
+      {
+        "index": 29,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 29
+  },
+  {
+    "id": 64,
+    "tier": 1,
+    "emitter": {
+      "index": 34,
+      "dir": "N"
+    },
+    "blockers": [
+      11,
+      17,
+      30
+    ],
+    "targets": [
+      25,
+      26,
+      29
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 4,
+        "mirror": "\\"
+      },
+      {
+        "index": 24,
+        "mirror": "\\"
+      }
+    ],
+    "firstHintIndex": 4
+  },
+  {
+    "id": 65,
+    "tier": 1,
+    "emitter": {
+      "index": 11,
+      "dir": "W"
+    },
+    "blockers": [
+      5,
+      13,
+      19,
+      22
+    ],
+    "targets": [
+      17,
+      23,
+      29
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 6,
+        "mirror": "/"
+      },
+      {
+        "index": 30,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 6
+  },
+  {
+    "id": 66,
+    "tier": 1,
+    "emitter": {
+      "index": 23,
+      "dir": "W"
+    },
+    "blockers": [
+      5,
+      8,
+      9,
+      14
+    ],
+    "targets": [
+      10,
+      28,
+      34
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 4,
+        "mirror": "\\"
+      },
+      {
+        "index": 18,
+        "mirror": "\\"
+      }
+    ],
+    "firstHintIndex": 18
+  },
+  {
+    "id": 67,
+    "tier": 2,
+    "emitter": {
+      "index": 31,
+      "dir": "N"
+    },
+    "blockers": [
+      6,
+      15,
+      27
+    ],
+    "targets": [
+      4,
+      26,
+      29
+    ],
+    "prisms": [
+      2
+    ],
+    "par": 4,
+    "budget": 5,
+    "parSolution": [
+      {
+        "index": 1,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 32,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 1
+  },
+  {
+    "id": 68,
+    "tier": 2,
+    "emitter": {
+      "index": 29,
+      "dir": "W"
+    },
+    "blockers": [
+      9,
+      22,
+      32,
+      33
+    ],
+    "targets": [
+      13,
+      15,
+      17
+    ],
+    "prisms": [
+      16
+    ],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 4,
+        "mirror": "\\"
+      },
+      {
+        "index": 24,
+        "mirror": "\\"
+      }
+    ],
+    "firstHintIndex": 24
+  },
+  {
+    "id": 69,
+    "tier": 3,
+    "emitter": {
+      "index": 35,
+      "dir": "W"
+    },
+    "blockers": [
+      10,
+      14,
+      15,
+      22
+    ],
+    "targets": [
+      11,
+      12,
+      25
+    ],
+    "prisms": [
+      24
+    ],
+    "par": 4,
+    "budget": 5,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 29,
+        "mirror": "/"
+      },
+      {
+        "index": 30,
+        "mirror": "\\"
+      }
+    ],
+    "firstHintIndex": 30
+  },
+  {
+    "id": 70,
+    "tier": 3,
+    "emitter": {
+      "index": 31,
+      "dir": "N"
+    },
+    "blockers": [
+      6,
+      9,
+      10,
+      30
+    ],
+    "targets": [
+      4,
+      20,
+      34
+    ],
+    "prisms": [
+      2
+    ],
+    "par": 4,
+    "budget": 5,
+    "parSolution": [
+      {
+        "index": 1,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 32,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 1
+  },
+  {
+    "id": 71,
+    "tier": 1,
+    "emitter": {
+      "index": 24,
+      "dir": "E"
+    },
+    "blockers": [
+      16,
+      18,
+      33
+    ],
+    "targets": [
+      7,
+      19,
+      31
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 1,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 29,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 29
+  },
+  {
+    "id": 72,
+    "tier": 1,
+    "emitter": {
+      "index": 31,
+      "dir": "N"
+    },
+    "blockers": [
+      12,
+      16,
+      21,
+      32
+    ],
+    "targets": [
+      24,
+      26,
+      27
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 1,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 29,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 1
+  },
+  {
+    "id": 73,
+    "tier": 1,
+    "emitter": {
+      "index": 35,
+      "dir": "N"
+    },
+    "blockers": [
+      10,
+      16,
+      19,
+      28
+    ],
+    "targets": [
+      32,
+      33,
+      34
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 30,
+        "mirror": "\\"
+      }
+    ],
+    "firstHintIndex": 5
+  },
+  {
+    "id": 74,
+    "tier": 2,
+    "emitter": {
+      "index": 29,
+      "dir": "W"
+    },
+    "blockers": [
+      16,
+      22,
+      30
+    ],
+    "targets": [
+      7,
+      8,
+      11
+    ],
+    "prisms": [
+      10
+    ],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 4,
+        "mirror": "\\"
+      },
+      {
+        "index": 24,
+        "mirror": "\\"
+      }
+    ],
+    "firstHintIndex": 24
+  },
+  {
+    "id": 75,
+    "tier": 2,
+    "emitter": {
+      "index": 24,
+      "dir": "E"
+    },
+    "blockers": [
+      9,
+      14,
+      16,
+      32
+    ],
+    "targets": [
+      6,
+      17,
+      22
+    ],
+    "prisms": [
+      23
+    ],
+    "par": 4,
+    "budget": 5,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 18,
+        "mirror": "\\"
+      },
+      {
+        "index": 29,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 29
+  },
+  {
+    "id": 76,
+    "tier": 3,
+    "emitter": {
+      "index": 0,
+      "dir": "S"
+    },
+    "blockers": [
+      14,
+      15,
+      16,
+      21,
+      26
+    ],
+    "targets": [
+      2,
+      3,
+      32
+    ],
+    "prisms": [
+      31
+    ],
+    "par": 4,
+    "budget": 5,
+    "parSolution": [
+      {
+        "index": 1,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 30,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 30
+  },
+  {
+    "id": 77,
+    "tier": 3,
+    "emitter": {
+      "index": 29,
+      "dir": "W"
+    },
+    "blockers": [
+      9,
+      10,
+      14,
+      15,
+      33
+    ],
+    "targets": [
+      3,
+      6,
+      22
+    ],
+    "prisms": [
+      18
+    ],
+    "par": 4,
+    "budget": 5,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 23,
+        "mirror": "/"
+      },
+      {
+        "index": 24,
+        "mirror": "\\"
+      }
+    ],
+    "firstHintIndex": 24
+  },
+  {
+    "id": 78,
+    "tier": 1,
+    "emitter": {
+      "index": 24,
+      "dir": "E"
+    },
+    "blockers": [
+      0,
+      21,
+      30
+    ],
+    "targets": [
+      7,
+      19,
+      31
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 1,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 29,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 29
+  },
+  {
+    "id": 79,
+    "tier": 1,
+    "emitter": {
+      "index": 32,
+      "dir": "N"
+    },
+    "blockers": [
+      9,
+      15,
+      18,
+      19
+    ],
+    "targets": [
+      24,
+      27,
+      28
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 2,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 29,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 2
+  },
+  {
+    "id": 80,
+    "tier": 1,
+    "emitter": {
+      "index": 18,
+      "dir": "E"
+    },
+    "blockers": [
+      8,
+      12,
+      30
+    ],
+    "targets": [
+      7,
+      13,
+      25
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 1,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 23,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 23
+  },
+  {
+    "id": 81,
+    "tier": 2,
+    "emitter": {
+      "index": 23,
+      "dir": "W"
+    },
+    "blockers": [
+      5,
+      16,
+      31
+    ],
+    "targets": [
+      7,
+      8,
+      11
+    ],
+    "prisms": [
+      10
+    ],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 0,
+        "mirror": "/"
+      },
+      {
+        "index": 4,
+        "mirror": "\\"
+      },
+      {
+        "index": 18,
+        "mirror": "\\"
+      }
+    ],
+    "firstHintIndex": 18
+  },
+  {
+    "id": 82,
+    "tier": 2,
+    "emitter": {
+      "index": 17,
+      "dir": "W"
+    },
+    "blockers": [
+      1,
+      5,
+      6,
+      22
+    ],
+    "targets": [
+      26,
+      27,
+      29
+    ],
+    "prisms": [
+      28
+    ],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 12,
+        "mirror": "/"
+      },
+      {
+        "index": 30,
+        "mirror": "\\"
+      },
+      {
+        "index": 34,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 12
+  },
+  {
+    "id": 83,
+    "tier": 3,
+    "emitter": {
+      "index": 31,
+      "dir": "N"
+    },
+    "blockers": [
+      0,
+      9,
+      15,
+      21,
+      22
+    ],
+    "targets": [
+      4,
+      8,
+      33
+    ],
+    "prisms": [
+      2
+    ],
+    "par": 4,
+    "budget": 5,
+    "parSolution": [
+      {
+        "index": 1,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 32,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 1
+  },
+  {
+    "id": 84,
+    "tier": 3,
+    "emitter": {
+      "index": 31,
+      "dir": "N"
+    },
+    "blockers": [
+      9,
+      12,
+      18,
+      24,
+      30
+    ],
+    "targets": [
+      3,
+      26,
+      33
+    ],
+    "prisms": [
+      2
+    ],
+    "par": 4,
+    "budget": 5,
+    "parSolution": [
+      {
+        "index": 1,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 32,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 1
+  },
+  {
+    "id": 85,
+    "tier": 1,
+    "emitter": {
+      "index": 31,
+      "dir": "N"
+    },
+    "blockers": [
+      0,
+      10,
+      12
+    ],
+    "targets": [
+      24,
+      26,
+      28
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 1,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 29,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 1
+  },
+  {
+    "id": 86,
+    "tier": 1,
+    "emitter": {
+      "index": 2,
+      "dir": "S"
+    },
+    "blockers": [
+      1,
+      5,
+      15
+    ],
+    "targets": [
+      6,
+      7,
+      9
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 11,
+        "mirror": "\\"
+      },
+      {
+        "index": 32,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 32
+  },
+  {
+    "id": 87,
+    "tier": 1,
+    "emitter": {
+      "index": 17,
+      "dir": "W"
+    },
+    "blockers": [
+      2,
+      6,
+      8,
+      11
+    ],
+    "targets": [
+      4,
+      22,
+      28
+    ],
+    "prisms": [],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 12,
+        "mirror": "/"
+      },
+      {
+        "index": 30,
+        "mirror": "\\"
+      },
+      {
+        "index": 34,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 12
+  },
+  {
+    "id": 88,
+    "tier": 2,
+    "emitter": {
+      "index": 2,
+      "dir": "S"
+    },
+    "blockers": [
+      6,
+      7,
+      9
+    ],
+    "targets": [
+      4,
+      22,
+      28
+    ],
+    "prisms": [
+      10
+    ],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 11,
+        "mirror": "\\"
+      },
+      {
+        "index": 32,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 32
+  },
+  {
+    "id": 89,
+    "tier": 2,
+    "emitter": {
+      "index": 32,
+      "dir": "N"
+    },
+    "blockers": [
+      0,
+      7,
+      18,
+      27
+    ],
+    "targets": [
+      16,
+      22,
+      34
+    ],
+    "prisms": [
+      28
+    ],
+    "par": 3,
+    "budget": 4,
+    "parSolution": [
+      {
+        "index": 2,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 29,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 2
+  },
+  {
+    "id": 90,
+    "tier": 3,
+    "emitter": {
+      "index": 1,
+      "dir": "S"
+    },
+    "blockers": [
+      18,
+      21,
+      22,
+      28
+    ],
+    "targets": [
+      4,
+      26,
+      34
+    ],
+    "prisms": [
+      32
+    ],
+    "par": 4,
+    "budget": 5,
+    "parSolution": [
+      {
+        "index": 2,
+        "mirror": "/"
+      },
+      {
+        "index": 5,
+        "mirror": "\\"
+      },
+      {
+        "index": 31,
+        "mirror": "\\"
+      },
+      {
+        "index": 35,
+        "mirror": "/"
+      }
+    ],
+    "firstHintIndex": 31
+  }
+]

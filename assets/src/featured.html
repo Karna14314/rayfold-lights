@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>RAYFOLD featuring</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: #05080d;
+      }
+      svg {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <pattern id="grid" width="72" height="72" patternUnits="userSpaceOnUse">
+          <path d="M72 0H0V72" fill="none" stroke="#16212b" stroke-width="1" />
+        </pattern>
+        <radialGradient id="vignette" cx="46%" cy="48%" r="72%">
+          <stop offset="38%" stop-color="#05080d" stop-opacity="0" />
+          <stop offset="100%" stop-color="#010306" stop-opacity="0.86" />
+        </radialGradient>
+        <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#f5a623" stop-opacity="0.18" />
+          <stop offset="58%" stop-color="#f5a623" stop-opacity="0.05" />
+          <stop offset="100%" stop-color="#f5a623" stop-opacity="0" />
+        </radialGradient>
+        <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#f2f8ff" />
+          <stop offset="45%" stop-color="#9fb3c8" />
+          <stop offset="100%" stop-color="#42566b" />
+        </linearGradient>
+        <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#e8fbff" stop-opacity="0.34" />
+          <stop offset="55%" stop-color="#9fe9ff" stop-opacity="0.1" />
+          <stop offset="100%" stop-color="#ff8fe6" stop-opacity="0.18" />
+        </linearGradient>
+        <linearGradient id="board" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#0a1118" />
+          <stop offset="100%" stop-color="#060b11" />
+        </linearGradient>
+        <linearGradient id="amberText" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stop-color="#ffd79a" />
+          <stop offset="55%" stop-color="#f5a623" />
+          <stop offset="100%" stop-color="#c97a10" />
+        </linearGradient>
+        <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+          <feGaussianBlur stdDeviation="15" result="wide" />
+          <feGaussianBlur stdDeviation="4" result="tight" />
+          <feMerge>
+            <feMergeNode in="wide" />
+            <feMergeNode in="tight" />
+            <feMergeNode in="SourceGraphic" />
+          </feMerge>
+        </filter>
+        <filter id="textGlow" x="-40%" y="-40%" width="180%" height="180%">
+          <feGaussianBlur stdDeviation="22" result="blur" />
+          <feMerge>
+            <feMergeNode in="blur" />
+            <feMergeNode in="SourceGraphic" />
+          </feMerge>
+        </filter>
+      </defs>
+
+      <rect width="1920" height="1080" fill="#05080d" />
+      <rect width="1920" height="1080" fill="url(#grid)" opacity="0.5" />
+      <ellipse cx="520" cy="540" rx="760" ry="560" fill="url(#halo)" />
+
+      <!-- faint diamond motif on the right -->
+      <g fill="none" stroke="#f5a623" stroke-opacity="0.08" stroke-width="2">
+        <path d="M1500 130L1770 430L1500 730L1230 430Z" />
+        <path d="M1500 250L1650 430L1500 610L1350 430Z" />
+      </g>
+
+      <!-- frame -->
+      <rect x="44" y="44" width="1832" height="992" rx="6" fill="none" stroke="#1c2834" stroke-width="2" opacity="0.8" />
+
+      <!-- board -->
+      <rect x="120" y="180" width="720" height="720" rx="18" fill="url(#board)" stroke="#26343f" stroke-width="3" />
+      <g stroke="#1a2632" stroke-width="1.5">
+        <path d="M240 180v720M360 180v720M480 180v720M600 180v720M720 180v720" />
+        <path d="M120 300h720M120 420h720M120 540h720M120 660h720M120 780h720" />
+      </g>
+
+      <!-- empty cell crosses -->
+      <g stroke="#2a3a48" stroke-width="2" opacity="0.5">
+        <path d="M174 480h12M180 474v12M294 480h12M300 474v12M534 480h12M540 474v12M654 480h12M660 474v12M774 480h12M780 474v12" />
+        <path d="M174 240h12M180 234v12M294 240h12M300 234v12M534 240h12M540 234v12M654 240h12M660 234v12M774 240h12M780 234v12" />
+        <path d="M174 600h12M180 594v12M294 600h12M300 594v12M414 600h12M420 594v12M534 600h12M540 594v12M654 600h12M660 594v12" />
+        <path d="M174 720h12M180 714v12M294 720h12M300 714v12M414 720h12M420 714v12M534 720h12M540 714v12M654 720h12M660 714v12M774 720h12M780 714v12" />
+        <path d="M174 840h12M180 834v12M294 840h12M300 834v12M414 840h12M420 834v12M534 840h12M540 834v12M654 840h12M660 834v12M774 840h12M780 834v12" />
+        <path d="M414 240h12M420 234v12M414 360h12M420 354v12" />
+      </g>
+
+      <!-- beam glow -->
+      <g filter="url(#glow)">
+        <path d="M124 480H420V360H642" fill="none" stroke="#f5a623" stroke-width="20" stroke-opacity="0.34" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M124 480H420V360H642" fill="none" stroke="#ffd79a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M700 348L780 240" fill="none" stroke="#38e1ff" stroke-width="10" stroke-opacity="0.35" stroke-linecap="round" />
+        <path d="M700 348L780 240" fill="none" stroke="#bdf6ff" stroke-width="3" stroke-linecap="round" />
+        <path d="M700 372L780 480" fill="none" stroke="#ff4fd8" stroke-width="10" stroke-opacity="0.35" stroke-linecap="round" />
+        <path d="M700 372L780 480" fill="none" stroke="#ffc2f2" stroke-width="3" stroke-linecap="round" />
+        <path d="M696 360H776" fill="none" stroke="#f5a623" stroke-width="10" stroke-opacity="0.32" stroke-linecap="round" />
+        <path d="M696 360H776" fill="none" stroke="#ffd79a" stroke-width="3" stroke-linecap="round" />
+      </g>
+
+      <!-- targets -->
+      <g filter="url(#glow)">
+        <path d="M780 196L824 240L780 284L736 240Z" fill="#f5a623" fill-opacity="0.14" stroke="#ffd79a" stroke-width="6" stroke-linejoin="round" />
+        <path d="M780 316L824 360L780 404L736 360Z" fill="#f5a623" fill-opacity="0.2" stroke="#f5a623" stroke-width="6" stroke-linejoin="round" />
+        <path d="M780 436L824 480L780 524L736 480Z" fill="#ff4fd8" fill-opacity="0.16" stroke="#ff8fe6" stroke-width="6" stroke-linejoin="round" />
+      </g>
+
+      <!-- prism -->
+      <path d="M640 328L640 392L696 360Z" fill="url(#glass)" stroke="#d8f6ff" stroke-width="3" stroke-opacity="0.72" stroke-linejoin="round" />
+
+      <!-- mirrors -->
+      <g>
+        <g transform="translate(420 480) rotate(-45)">
+          <rect x="-46" y="-7" width="92" height="14" rx="7" fill="url(#metal)" stroke="#e9f4ff" stroke-width="2" stroke-opacity="0.8" />
+          <rect x="-46" y="-2" width="92" height="4" fill="#ffffff" opacity="0.55" />
+        </g>
+        <g transform="translate(420 360) rotate(45)">
+          <rect x="-46" y="-7" width="92" height="14" rx="7" fill="url(#metal)" stroke="#e9f4ff" stroke-width="2" stroke-opacity="0.8" />
+          <rect x="-46" y="-2" width="92" height="4" fill="#ffffff" opacity="0.55" />
+        </g>
+      </g>
+
+      <!-- emitter -->
+      <g filter="url(#glow)">
+        <circle cx="134" cy="480" r="13" fill="#ffd79a" />
+      </g>
+      <rect x="86" y="452" width="40" height="56" rx="7" fill="#0b1218" stroke="#f5a623" stroke-width="4" />
+      <path d="M120 480h10" stroke="#ffd79a" stroke-width="6" stroke-linecap="round" />
+
+      <!-- wordmark -->
+      <g filter="url(#textGlow)">
+        <text x="1058" y="560" fill="url(#amberText)" font-family="Bahnschrift, 'Segoe UI', sans-serif" font-size="132" font-weight="600" letter-spacing="18">RAYFOLD</text>
+      </g>
+      <text x="1062" y="428" fill="#6f8398" font-family="Bahnschrift, 'Segoe UI', sans-serif" font-size="24" font-weight="500" letter-spacing="12">DAILY OPTICAL LOGIC</text>
+      <rect x="1062" y="606" width="440" height="3" fill="#f5a623" opacity="0.7" />
+      <text x="1062" y="690" fill="#c7d6e4" font-family="Bahnschrift, 'Segoe UI', sans-serif" font-size="36" font-weight="400" letter-spacing="8">FOLD THE LIGHT.</text>
+      <text x="1064" y="742" fill="#6f8398" font-family="Bahnschrift, 'Segoe UI', sans-serif" font-size="18" font-weight="500" letter-spacing="5">ONE BEAM · THREE DIAMONDS · ONE SOLUTION</text>
+
+      <rect width="1920" height="1080" fill="url(#vignette)" />
+    </svg>
+  </body>
+</html>
